@@ -3,7 +3,7 @@ import Book from './Book'
 
 class Shelf extends React.Component {
     componentDidMount() {
-        console.log(this);
+        // console.log(this);
     }
 
     render() {

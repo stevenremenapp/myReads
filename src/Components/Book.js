@@ -9,7 +9,7 @@ class Book extends React.Component {
     }
 
     componentDidMount() {
-        console.log(this);
+        // console.log(this);
     }
 
     render() {
