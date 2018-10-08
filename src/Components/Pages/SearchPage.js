@@ -43,7 +43,7 @@ class SearchPage extends React.Component {
               b.shelf = "none";
             }
           });
-          // Alleviates the problem of async request leaving results while search input is empty
+          // Additional check on query state alleviates the problem of async request leaving results while search input is empty (if user clears search all at once)
           if (this.state.query === '') {
             return this.setState({ results: [] });
           } else {
